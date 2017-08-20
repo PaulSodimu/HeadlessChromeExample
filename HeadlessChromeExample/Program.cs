@@ -8,7 +8,7 @@ namespace HeadlessChromeExample
   {
     static void Main(string[] args)
     {
-      //Create crome options with headles arg
+      //Create chrome options with headles arg
       ChromeOptions options = new ChromeOptions();
       options.AddArgument("--headless");
 
